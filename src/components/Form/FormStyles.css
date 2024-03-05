@@ -1,0 +1,29 @@
+label{
+    color:#fff;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin:auto;
+    max-width: 600px;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-group label{
+    margin-bottom: 0.5rem;
+}
+.form-group input{
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+textarea{
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}

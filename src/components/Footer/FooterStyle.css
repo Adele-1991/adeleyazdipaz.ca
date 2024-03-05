@@ -1,0 +1,171 @@
+.footer{
+    width: 100%;
+    height:100% ;
+    background-image:url("../assets/video_cover_img.jpg");
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    background: rgba(23, 23, 75, 0.719);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+
+
+.location{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+}
+.location p{
+    line-height: 30px;
+}
+
+
+.fahome{
+    color: #fff;
+    margin-right: "2rem";
+   
+}
+.fauser{
+    color: #fff;
+    margin-right: "2rem";
+}
+.faphone{
+    color: #fff;
+    margin-right: "2rem";
+}
+.IoMdMail{
+    color: #fff;
+    margin-right: "2rem";
+    
+}
+.left{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+.left p{
+    margin: 1rem 0;
+    align-items: flex-end;
+    color: #fff;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;    
+
+}
+.right{
+  justify-content: start;
+    align-items: start;
+    margin-right: 20px;
+    padding: 1rem;
+    margin-top: -80px;
+}
+.logo{
+    width: 300px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+   
+}
+@media screen and (max-width: 640px){
+ .footer-container{
+    grid-template-columns: 1fr;
+ }
+ .footer{
+    width: 100%;
+    background-image:url("../assets/video_cover_img.jpg");
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    grid-template-columns: 1fr;
+    background: rgba(23, 23, 75, 0.719);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+ .left p{
+    margin: 0;
+    align-items: flex-end;
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff;
+}
+.right{
+    
+    line-height: 0px;
+    font-size: 10px;
+    
+}
+.location{
+    margin-bottom: 0px;
+}
+.location p{
+    margin: 12px 0;
+    font-size: 10px;
+    line-height: 10px ;
+}
+.faphone{
+   margin-top: 0;
+}
+.faemail
+{
+    margin-top: -20;
+}
+.IoMdMail{
+    margin: 10px 0;
+    font-size: 10px;
+    line-height: 10px;
+    
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    margin-top: 10px;   
+}
+}
+.logo {
+    width: 100%; /* Adjust based on your design requirements */
+    max-width: 300px; /* Set a maximum width for the logo */
+    height: auto;
+    opacity: 0.8;
+}
